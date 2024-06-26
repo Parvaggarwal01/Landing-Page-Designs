@@ -49,11 +49,27 @@ body {
 }
 
 #nav-part2>h4{
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 
 #nav-part2>h4>span{
     color: rgb(126, 126, 126);
     margin-left: 1.7vw;
+}
+
+#nav2{
+    height: 4vw;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 4.7vw;
+    padding: 0 2.5vw;
+}
+
+#nav2>h3{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
 }
