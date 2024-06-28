@@ -18,7 +18,7 @@ body {
 }
 
 #nav {
-  height: 4vw;
+  height: 9.6vh;
   width: 100%;
   /* background-color: rebeccapurple; */
   display: flex;
@@ -111,4 +111,103 @@ body {
   background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: 0 25%;
+}
+
+@media (max-width: 800px) {
+  #nav {
+    height: 7vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 5vw;
+  }
+
+  #nav > h4 {
+    font-size: 3vw;
+    font-weight: 500;
+    /* display: none; */
+  }
+
+  #nav > i {
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    padding: 1.4vw;
+    border-radius: 50%;
+    font-weight: 500;
+  }
+
+  #center {
+    width: 100%;
+    /* background-color:aquamarine; */
+    padding: 1.5vw 5vw;
+  }
+
+  #center > h1 {
+    font-size: 10vw;
+    font-weight: 500;
+    line-height: 12vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #center-in {
+    /* background-color: aqua; */
+    width: 100%;
+    margin-top: 4vw;
+    display: flex;
+    gap: 4vw;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #center-in > p {
+    font-size: 3.3vw;
+    font-weight: 600;
+    line-height: 5vw;
+  }
+
+  #right {
+    width: 100%;
+  }
+
+  .elem {
+    /* background-color: blueviolet; */
+    /* margin: .5vw; */
+    padding: 3vw 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .elem > i {
+    color: #303030;
+    font-size: 4.2vw;
+    font-weight: 400;
+    opacity: 1;
+  }
+
+  .elem > a {
+    color: #303030;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 4vw;
+  }
+
+  .elem:hover a {
+    text-decoration: underline;
+  }
+
+  #bottom {
+    height: 35%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 25%;
+  }
 }
