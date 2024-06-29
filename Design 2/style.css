@@ -152,3 +152,7 @@ body {
     font-size: 1.7vw;
     font-weight: 400;
 }
+
+@media (max-width: 800px) {
+    
+}
